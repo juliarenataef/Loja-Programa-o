@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: aluno
- * Date: 28/02/18
- * Time: 14:10
- */
 
 require_once "Conexao.php";
 require_once "Produto.php";
@@ -14,6 +8,7 @@ class ProdutoCrud
 {
     private $conexao;
 
+    //toda vez q um objeto for criado ele faz o construct/faz conexão com o banco
     public function __construct()
     {
         $con = new Conexao();

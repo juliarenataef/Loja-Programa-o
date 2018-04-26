@@ -33,7 +33,7 @@ require_once '../model/CategoriaCrud.php';
             include '../visoes/templates/rodape.php';
             break;
 
-        case 'iserir';
+        case 'inserir';
 
             if (!isset($_POST['Gravar'])) {
                 include '../visoes/templates/cabecalho.php';
@@ -47,7 +47,7 @@ require_once '../model/CategoriaCrud.php';
                 $crud = new CategoriaCrud();
                 $crud->insertCategoria($novaCategoria);
 
-                header('Location: categoria.php');
+                header('Location: categorias.php');
             }
 
             }

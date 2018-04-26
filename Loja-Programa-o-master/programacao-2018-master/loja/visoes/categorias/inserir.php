@@ -1,6 +1,5 @@
 
-    
-    <form method="post" action="categorias.php?acao=">
+    <form method="post" action="categorias.php?acao=inserir">
     <label for="nome">Nome</label>
         <input type="text" name="nome">
 
@@ -10,7 +9,7 @@
 
         </textarea>
                 <br>
-                <input type="submit" name="gravar" value="Gravar">
+                <input type="submit" name="Gravar" value="Gravar">
 
     </form>
 

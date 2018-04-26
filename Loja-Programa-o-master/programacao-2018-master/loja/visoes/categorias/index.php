@@ -5,6 +5,8 @@
     <a href="../controladores/categorias.php?acao=inserir"
     <thead>
 
+    <p>Inserir Categoria</p>
+
 <table class="ui table">
 
     <tr>
