@@ -1,0 +1,3 @@
+# Julia Renata 3info2
+#talvez o professor encontre semelhanças na logica entre o meu trabalho e do Amon pois nós copiamos juntos pensando que o trabalho fosse em dupla...
+#eu tinha um repositorio que eu vinha fazendo junto com o professor, poremm ele tinha 3 pastas com os mesmos arquivos dentro de cada pasta(o trabalho estava triplicado dentro do repositorio)... como eu n consegui editar o repositorio(para manter somente uma copia do trabalho) eu exclui aquele repositorio e fiz esse hj com so uma pasta do trabalho. Resumindo: parece que eu fiz todo o trabalho hj, porem eu vinha fazendo junto do professor.
