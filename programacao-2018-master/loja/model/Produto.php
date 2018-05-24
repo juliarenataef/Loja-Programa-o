@@ -16,11 +16,11 @@ class Produto
     private $categoria;
 
     /**
-     * @param mixed $nome
+     * @return mixed
      */
-    public function setNome($nome)
+    public function getId()
     {
-        $this->nome = $nome;
+        return $this->id;
     }
 
     /**
@@ -32,6 +32,30 @@ class Produto
     }
 
     /**
+     * @return mixed
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * @param mixed $nome
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDescricao()
+    {
+        return $this->descricao;
+    }
+
+    /**
      * @param mixed $descricao
      */
     public function setDescricao($descricao)
@@ -40,11 +64,11 @@ class Produto
     }
 
     /**
-     * @param mixed $categoria
+     * @return mixed
      */
-    public function setCategoria($categoria)
+    public function getFoto()
     {
-        $this->categoria = $categoria;
+        return $this->foto;
     }
 
     /**
@@ -56,6 +80,14 @@ class Produto
     }
 
     /**
+     * @return mixed
+     */
+    public function getPreco()
+    {
+        return $this->preco;
+    }
+
+    /**
      * @param mixed $preco
      */
     public function setPreco($preco)
@@ -63,5 +95,20 @@ class Produto
         $this->preco = $preco;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getCategoria()
+    {
+        return $this->categoria;
+    }
+
+    /**
+     * @param mixed $categoria
+     */
+    public function setCategoria($categoria)
+    {
+        $this->categoria = $categoria;
+    }
 
 }

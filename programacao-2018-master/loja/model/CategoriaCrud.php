@@ -1,12 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: aluno
- * Date: 28/02/18
- * Time: 13:38
- */
+
+
 require_once "Conexao.php";
 require_once "Categoria.php";
+
 class CategoriaCrud
 {
     private $conexao;

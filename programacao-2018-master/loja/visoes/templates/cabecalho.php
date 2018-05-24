@@ -12,7 +12,7 @@
 
 <div class="ui two item inverted menu">
   <a class="item" href="/Loja-Programa-o-master/programacao-2018-master/loja/controladores/categorias.php">Categorias</a>
-  <a class="item">Produtos</a>
+  <a class="item" href="Loja-Programa-o-master/programacao-2018-master/loja/controladores/produtos.php">Produtos</a>
 </div>
 
 

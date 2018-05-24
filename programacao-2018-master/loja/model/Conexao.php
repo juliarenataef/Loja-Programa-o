@@ -7,9 +7,9 @@
  */
 class Conexao {
     const HOST      = "localhost";
-    const NOMEBANCO = "3info2";
+    const NOMEBANCO = "3infoi2";
     const USUARIO   = "root";
-    const SENHA     = '';
+    const SENHA     = 'root';
 
     //!!!Substitua daqui para baixo
     public static $conexao = null;

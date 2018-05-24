@@ -2,15 +2,19 @@
 
 
     <body>
+    <a href="../controladores/categorias.php?acao=inserir"
+    <thead>
+
+    <p>Inserir Categoria</p>
 
 <table class="ui table">
-  <thead>
+
     <tr>
       <th>Id</th>
       <th>Nome Categoria</th>
     </tr>
   </thead>
-  
+
   <tbody>
   <?php foreach ($categorias as $categoria):?>
     <tr>

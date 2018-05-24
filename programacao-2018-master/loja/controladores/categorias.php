@@ -23,14 +23,35 @@ require_once '../model/CategoriaCrud.php';
             include '../visoes/categorias/index.php';
             include '../visoes/templates/rodape.php';
             break;
+
         case 'show':
             $id=$_GET['id'];
             $crud = new CategoriaCrud();
-            $cateorias = $crud->getCategorias();
+            $categoria = $crud->getCategoria($id);
             include '../visoes/templates/cabecalho.php';
             include '../visoes/categorias/show.php';
             include '../visoes/templates/rodape.php';
             break;
-    }
+
+        case 'inserir';
+
+            if (!isset($_POST['Gravar'])) {
+                include '../visoes/templates/cabecalho.php';
+                include '../visoes/categorias/inserir.php';
+                include '../visoes/templates/rodape.php';
+            }else {
+                $nome = $POST['nome'];
+                $descricao = $_POST['descricao'];
+                $novaCategoria = new Categoria(null, $nome, $descricao);
+
+                $crud = new CategoriaCrud();
+                $crud->insertCategoria($novaCategoria);
+
+                header('Location: categorias.php');
+            }
+
+            }
+
+
 
 

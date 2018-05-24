@@ -1,10 +1,7 @@
 <?php
 
-//include "visoes/principal/teste.php";
-
-
 require_once '../loja/model/CategoriaCrud.php';
-require_once '../loja/model/ProdutoCrud.php';
+require_once '../model/ProdutoCrud.php';
 
 if (isset($_GET['acao'])){
 
@@ -19,9 +16,6 @@ switch($acao){
 
         $crud = new CategoriaCrud();
         $categorias =$crud->getCategorias();
-
-        $crud = new ProdutoCrud();
-        $produtos =$crud->getProdutos();
         include "visoes/principal/teste.php";
         break;
 
